@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>594</width>
+    <height>664</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>591</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="txt_tarefa">
+       <property name="toolTip">
+        <string>Escreva sua tarefa</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 5px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Escreva sua tarefa</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_adicionar">
+       <property name="toolTip">
+        <string>Adicionar nota</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: lightgreen;
+border-radius: 5px;
+border: 2px solid green;</string>
+       </property>
+       <property name="text">
+        <string>ADICIONAR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_concluir_2">
+       <property name="toolTip">
+        <string>Concluir tarefa</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: lightblue;
+border-radius: 5px;
+border: 2px solid blue;</string>
+       </property>
+       <property name="text">
+        <string>CONCLUIR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_editar_2">
+       <property name="toolTip">
+        <string>Editar tarefa</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: yellow;
+border-radius: 5px;
+border: 2px solid orange;</string>
+       </property>
+       <property name="text">
+        <string>EDITAR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_editar_3">
+       <property name="toolTip">
+        <string>Remover tarefa</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: lightcoral;
+border-radius: 5px;
+border: 2px solid red;</string>
+       </property>
+       <property name="text">
+        <string>REMOVER</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listWidget"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
